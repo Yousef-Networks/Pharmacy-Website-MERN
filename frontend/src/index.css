@@ -1,0 +1,77 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+}
+
+header nav div span {
+  margin-right: 10px;
+}
+
+header nav div a {
+  margin-right: 10px;
+  color: #343a40;
+  text-decoration: none;
+}
+
+header nav div button {
+  padding: 5px 10px;
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+header h1 {
+  margin: 0;
+  color: #343a40;
+}
+
+header nav div button:hover {
+  background-color: #495057;
+}
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
