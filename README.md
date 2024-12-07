@@ -1,1 +1,3 @@
-# On-The-Run-Pharmacy
+This project is a comprehensive software solution designed to streamline and automate the interactions between patients, medical doctors, and pharmacists. This platform enables users to easily find doctors, schedule appointments, consult with healthcare professionals online, and access their medical history. Patients can also get prescriptions, receive follow-up reminders, and order prescribed medication from the integrated pharmacy.
+
+The project is implemented using the MERN Stack (MongoDB, Express.js, React.js, and Node.js) to ensure a robust and scalable application. It follows the Agile Methodology, where the project is developed over three sprints.
